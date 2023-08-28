@@ -1,0 +1,14 @@
+[package]
+name = "zippo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zip-extract = "0.1.2"
+anyhow = "1.0.75"
+
+[profile.release]
+panic = "abort"
+strip = true
+opt-level = "z"
+lto = true
