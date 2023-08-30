@@ -4,8 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-zip-extract = "0.1.2"
+zip = "0.6.6"
 anyhow = "1.0.75"
+inquire = "0.6.2"
 
 [profile.release]
 panic = "abort"
